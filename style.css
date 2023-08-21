@@ -1,0 +1,270 @@
+
+/* Main Page */
+.top-page {
+    position: relative;
+    padding-top: 100px;
+}
+
+.text-main {
+    font-size: 4rem;
+    padding-bottom: 20px;
+}
+
+.text {
+    font-size: 2rem;
+}
+
+.text-main, .text, .sk-text {
+    color: #9F0D7F;
+}
+
+.text-main, .text-first, .sk-text, .con-text, .link, footer {
+    font-family: 'Merriweather', serif;
+}
+
+.text, .paragraph-first, .grid-item2, .grid-item4, .con-item1, .but-con {
+ font-family: 'Rokkitt', serif;
+}
+
+
+/* About Me */
+
+.me-png {
+    border-radius: 50%;
+}
+
+.text-first {
+    padding: 20px 0px 20px 0;  
+}
+
+.paragraph-first {
+    width: 30%;
+    margin: auto;
+}
+
+#first-page, #contact-page, .sk-heading {
+    background-color: #F79BD3;
+}
+
+#first-page, #skill-page {
+    padding: 100px 0px 100px 0;
+}
+
+.text-first, .sk-text {
+   font-size: 3rem; 
+}
+
+.text-first, .sk-heading, .link {
+    color: #241468;
+}
+
+.paragraph-first, .grid-item2, .grid-item4, .con-item1 {
+    font-size: 1.5rem;
+}
+
+/* My Skills */
+.sk-text {
+    padding-bottom: 70px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.study-png, .reading-png, .me-png {
+    height: 300px;
+    padding-left: 150px;
+}
+
+.grid-item2, .grid-item4 {
+    width: 400px;
+    padding-top: 30px;
+}
+
+/* Contact */
+.con-text, .con-item1 {
+    padding-bottom: 30px;
+}
+
+.but-con {
+    background-color: #241468;
+    color: white;
+}
+
+/* Footer */
+#footer-page {
+    padding: 30px auto;
+}
+
+.link-footer {
+    padding-bottom: 25px;
+    
+}
+
+.link {
+    font-size: 1.2rem;
+}
+
+.link1, link2 {
+    display: block;
+    padding: 10px 5px 10px 5px;
+}
+
+/* Media */
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    .top-page {
+        padding: 100px 30px 30px 100px;
+    }
+
+    .text-main {
+        font-size: 3rem;
+    }
+
+    .text {
+        font-size: 1.5rem;
+    }
+
+    .learning-img {
+        width: 400px;
+    }
+
+    .text-first {
+        padding: 40px 0px 20px 0px;
+    }
+
+    .paragraph-first {
+        width: 50%;
+        margin: auto;
+    }
+
+    .me-png, .learning-img {
+        height: 250px;
+    }
+
+    #skill-page {
+        margin: 0px;
+    }
+
+   .grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+   }
+   
+   .study-png, .reading-png {
+    height: 300px;
+    padding: 0px 100px 0px 50px;
+   }
+   
+   .grid-item2, .grid-item4 {
+    font-size: 1.3rem;
+    padding: 40px 20px 0px 120px;
+   }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .top-page {
+        padding: 100px 30px 30px 100px;
+    }
+
+    .text-main {
+        font-size: 3rem;
+    }
+
+    .text {
+        font-size: 1.5rem;
+    }
+
+    .learning-img {
+        width: 400px;
+    }
+
+    .text-first {
+        padding: 40px 0px 20px 0px;
+    }
+
+    .paragraph-first {
+        width: 50%;
+        margin: auto;
+    }
+
+    .me-png, .learning-img {
+        height: 250px;
+    }
+
+    #skill-page {
+        margin: 0px;
+    }
+
+   .grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+   }
+   
+   .study-png, .reading-png {
+    height: 300px;
+    padding: 0px 100px 0px 50px;
+   }
+   
+   .grid-item2, .grid-item4 {
+    font-size: 1.3rem;
+    padding: 40px 20px 0px 120px;
+   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+    #main-page {
+        padding: 40px 80px 90px 100px;
+    }
+
+    .learning-img {
+        width: 400px;
+    }
+
+    .text-main {
+        font-size: 3rem;
+    }
+
+    .text {
+        font-size: 1.5rem;
+    }
+
+    .me-png {
+        height: 250px;
+        margin-right: 60px;
+    }
+
+    .text-first {
+        padding: 40px 0px 20px 0px;
+    }
+
+    .paragraph-first {
+        width: 50%;
+        margin: auto;
+    }
+
+    #skill-page {
+        margin: 0px;
+    }
+
+   .grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+   }
+   
+   .study-png, .reading-png {
+    height: 300px;
+    padding: 0px 100px 0px 50px;
+   }
+   
+   .grid-item2, .grid-item4 {
+    font-size: 1.5rem;
+    width: 90%;
+    padding: 30px 50px 0px 120px;
+   }
+}
