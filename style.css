@@ -113,21 +113,23 @@
 }
 
 /* Media */
-@media screen and (min-width: 0px) and (max-width: 576px) {
+@media screen and (min-width: 360px) and (max-width: 576px) {
     .top-page {
-        padding: 100px 30px 30px 100px;
+        padding: 100px 50px 30px 150px;
     }
 
     .text-main {
-        font-size: 3rem;
+        font-size: 3.2rem;
+        width: 250px;
     }
 
     .text {
-        font-size: 1.5rem;
+        width: 250px;
+        font-size: 1.6rem;
     }
 
     .learning-img {
-        width: 400px;
+        width: 330px;
     }
 
     .text-first {
@@ -144,6 +146,7 @@
     }
 
     #skill-page {
+        width: 600px;
         margin: 0px;
     }
 
@@ -160,9 +163,19 @@
    
    .grid-item2, .grid-item4 {
     font-size: 1.3rem;
-    padding: 40px 20px 0px 120px;
+    padding: 40px 20px 0px 150px;
+    width: 450px;
+   }
+
+   #first-page, #contact-page, #footer-page {
+    width: 600px;
+   }
+
+    .con-item1 {
+    padding-right: 30px;
    }
 }
+
 
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -171,10 +184,12 @@
     }
 
     .text-main {
+        width: 300px;
         font-size: 3rem;
     }
 
     .text {
+        width: 300px;
         font-size: 1.5rem;
     }
 
@@ -213,6 +228,10 @@
    .grid-item2, .grid-item4 {
     font-size: 1.3rem;
     padding: 40px 20px 0px 120px;
+   }
+
+    .con-item1 {
+    padding-right: 30px;
    }
 }
 
@@ -266,5 +285,9 @@
     font-size: 1.5rem;
     width: 90%;
     padding: 30px 50px 0px 120px;
+   }
+
+    .con-item1 {
+    padding-right: 30px;
    }
 }
